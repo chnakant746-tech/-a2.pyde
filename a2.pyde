@@ -58,7 +58,6 @@ def three_del(grid_x, grid_y, matrix):
                 matrix[y][x+2] = 0
             x = x + 1
         y = y + 1
-
     y = 0
     while y < grid_y - 2:
         x = 0
